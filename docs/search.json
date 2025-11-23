@@ -49,62 +49,6 @@
     "text": "Blog de Programação\nBem-vindo ao blog de atividades avaliativas da disciplina de Programação. Aqui você encontrará códigos, explicações e comentários sobre cada atividade desenvolvida.\n\n\n\n\n\nExemplo de Post 01\nData: 2025-11-23 · Autor: Seu Nome\nPequena descrição da atividade abordando estruturas condicionais em Python.\n→ Ler mais\n\n\nExemplo de Post 02\nData: 2025-11-23 · Autor: Seu Nome\nImplementação de laços de repetição e exemplos práticos.\n→ Ler mais"
   },
   {
-    "objectID": "posts/post-01.html",
-    "href": "posts/post-01.html",
-    "title": "Exemplo de Post 01",
-    "section": "",
-    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nImplementar exemplos de estruturas condicionais (if, elif, else) em Python para verificar diferentes faixas de notas de um aluno.\n\n\n\nnota = float(input(\"Digite a nota do aluno: \"))\n\nif nota &gt;= 9.0:\n    conceito = \"A\"\nelif nota &gt;= 7.0:\n    conceito = \"B\"\nelif nota &gt;= 5.0:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n\nprint(f\"Nota: {nota} - Conceito: {conceito}\")\n\n\n\nNesta atividade, trabalhei com estruturas condicionais simples em Python.\n\nTestei diferentes valores de notas para garantir que todas as faixas fossem cobertas.\nTive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).\nPoderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos)."
-  },
-  {
-    "objectID": "posts/post-01.html#descrição-da-atividade",
-    "href": "posts/post-01.html#descrição-da-atividade",
-    "title": "Exemplo de Post 01",
-    "section": "",
-    "text": "Implementar exemplos de estruturas condicionais (if, elif, else) em Python para verificar diferentes faixas de notas de um aluno."
-  },
-  {
-    "objectID": "posts/post-01.html#código-da-solução",
-    "href": "posts/post-01.html#código-da-solução",
-    "title": "Exemplo de Post 01",
-    "section": "",
-    "text": "nota = float(input(\"Digite a nota do aluno: \"))\n\nif nota &gt;= 9.0:\n    conceito = \"A\"\nelif nota &gt;= 7.0:\n    conceito = \"B\"\nelif nota &gt;= 5.0:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n\nprint(f\"Nota: {nota} - Conceito: {conceito}\")"
-  },
-  {
-    "objectID": "posts/post-01.html#comentários-do-autor",
-    "href": "posts/post-01.html#comentários-do-autor",
-    "title": "Exemplo de Post 01",
-    "section": "",
-    "text": "Nesta atividade, trabalhei com estruturas condicionais simples em Python.\n\nTestei diferentes valores de notas para garantir que todas as faixas fossem cobertas.\nTive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).\nPoderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos)."
-  },
-  {
-    "objectID": "posts/post-template.html",
-    "href": "posts/post-template.html",
-    "title": "Título da Atividade",
-    "section": "",
-    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nDescreva aqui o objetivo da atividade, o contexto (por exemplo, “Trabalho avaliativo da disciplina de Programação”), e o que será implementado.\n\n\n\nExplique brevemente o que o código faz antes de mostrá-lo.\n# Exemplo de código em Python\n# Substitua por seu código real\n\ndef soma(a, b):\n    return a + b\n\nprint(soma(2, 3))\nVocê pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).\n// Exemplo de código em C++\n#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}\n\n\n\nUse esta seção para registrar comentários pessoais sobre o que foi feito.\n\nO que foi mais difícil?\nQuais erros foram encontrados e como foram resolvidos?\nO que poderia ser melhorado no futuro?\n\nEste espaço é reservado apenas para o autor, não será aberto a comentários públicos."
-  },
-  {
-    "objectID": "posts/post-template.html#descrição-da-atividade",
-    "href": "posts/post-template.html#descrição-da-atividade",
-    "title": "Título da Atividade",
-    "section": "",
-    "text": "Descreva aqui o objetivo da atividade, o contexto (por exemplo, “Trabalho avaliativo da disciplina de Programação”), e o que será implementado."
-  },
-  {
-    "objectID": "posts/post-template.html#código-da-solução",
-    "href": "posts/post-template.html#código-da-solução",
-    "title": "Título da Atividade",
-    "section": "",
-    "text": "Explique brevemente o que o código faz antes de mostrá-lo.\n# Exemplo de código em Python\n# Substitua por seu código real\n\ndef soma(a, b):\n    return a + b\n\nprint(soma(2, 3))\nVocê pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).\n// Exemplo de código em C++\n#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}"
-  },
-  {
-    "objectID": "posts/post-template.html#comentários-do-autor",
-    "href": "posts/post-template.html#comentários-do-autor",
-    "title": "Título da Atividade",
-    "section": "",
-    "text": "Use esta seção para registrar comentários pessoais sobre o que foi feito.\n\nO que foi mais difícil?\nQuais erros foram encontrados e como foram resolvidos?\nO que poderia ser melhorado no futuro?\n\nEste espaço é reservado apenas para o autor, não será aberto a comentários públicos."
-  },
-  {
     "objectID": "manual.html",
     "href": "manual.html",
     "title": "Manual do Usuário do Blog",
@@ -166,5 +110,61 @@
     "title": "Manual do Usuário do Blog",
     "section": "",
     "text": "Use nomes de arquivos consistentes, como:\n\npost-01-condicionais.qmd\npost-02-lacos-repeticao.qmd\n\nMantenha o cabeçalho YAML sempre correto.\nSempre preencha a seção “Comentários do Autor”.\nTeste o código antes de publicar.\nEscreva mensagens de commit claras (ex.: Cria post sobre listas em Python).\n\n\nSe tiver dúvidas, consulte este manual ou veja exemplos já existentes em posts/post-01.qmd e posts/post-02.qmd."
+  },
+  {
+    "objectID": "posts/post-01.html",
+    "href": "posts/post-01.html",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nImplementar exemplos de estruturas condicionais (if, elif, else) em Python para verificar diferentes faixas de notas de um aluno.\n\n\n\nnota = float(input(\"Digite a nota do aluno: \"))\n\nif nota &gt;= 9.0:\n    conceito = \"A\"\nelif nota &gt;= 7.0:\n    conceito = \"B\"\nelif nota &gt;= 5.0:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n\nprint(f\"Nota: {nota} - Conceito: {conceito}\")\n\n\n\nNesta atividade, trabalhei com estruturas condicionais simples em Python.\n\nTestei diferentes valores de notas para garantir que todas as faixas fossem cobertas.\nTive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).\nPoderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos)."
+  },
+  {
+    "objectID": "posts/post-01.html#descrição-da-atividade",
+    "href": "posts/post-01.html#descrição-da-atividade",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "Implementar exemplos de estruturas condicionais (if, elif, else) em Python para verificar diferentes faixas de notas de um aluno."
+  },
+  {
+    "objectID": "posts/post-01.html#código-da-solução",
+    "href": "posts/post-01.html#código-da-solução",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "nota = float(input(\"Digite a nota do aluno: \"))\n\nif nota &gt;= 9.0:\n    conceito = \"A\"\nelif nota &gt;= 7.0:\n    conceito = \"B\"\nelif nota &gt;= 5.0:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n\nprint(f\"Nota: {nota} - Conceito: {conceito}\")"
+  },
+  {
+    "objectID": "posts/post-01.html#comentários-do-autor",
+    "href": "posts/post-01.html#comentários-do-autor",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "Nesta atividade, trabalhei com estruturas condicionais simples em Python.\n\nTestei diferentes valores de notas para garantir que todas as faixas fossem cobertas.\nTive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).\nPoderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos)."
+  },
+  {
+    "objectID": "posts/post-template.html",
+    "href": "posts/post-template.html",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nDescreva aqui o objetivo da atividade, o contexto (por exemplo, “Trabalho avaliativo da disciplina de Programação”), e o que será implementado.\n\n\n\nExplique brevemente o que o código faz antes de mostrá-lo.\n# Exemplo de código em Python\n# Substitua por seu código real\n\ndef soma(a, b):\n    return a + b\n\nprint(soma(2, 3))\nVocê pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).\n// Exemplo de código em C++\n#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}\n\n\n\nUse esta seção para registrar comentários pessoais sobre o que foi feito.\n\nO que foi mais difícil?\nQuais erros foram encontrados e como foram resolvidos?\nO que poderia ser melhorado no futuro?\n\nEste espaço é reservado apenas para o autor, não será aberto a comentários públicos."
+  },
+  {
+    "objectID": "posts/post-template.html#descrição-da-atividade",
+    "href": "posts/post-template.html#descrição-da-atividade",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Descreva aqui o objetivo da atividade, o contexto (por exemplo, “Trabalho avaliativo da disciplina de Programação”), e o que será implementado."
+  },
+  {
+    "objectID": "posts/post-template.html#código-da-solução",
+    "href": "posts/post-template.html#código-da-solução",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Explique brevemente o que o código faz antes de mostrá-lo.\n# Exemplo de código em Python\n# Substitua por seu código real\n\ndef soma(a, b):\n    return a + b\n\nprint(soma(2, 3))\nVocê pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).\n// Exemplo de código em C++\n#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}"
+  },
+  {
+    "objectID": "posts/post-template.html#comentários-do-autor",
+    "href": "posts/post-template.html#comentários-do-autor",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Use esta seção para registrar comentários pessoais sobre o que foi feito.\n\nO que foi mais difícil?\nQuais erros foram encontrados e como foram resolvidos?\nO que poderia ser melhorado no futuro?\n\nEste espaço é reservado apenas para o autor, não será aberto a comentários públicos."
   }
 ]
