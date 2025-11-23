@@ -1,0 +1,63 @@
+---
+title: "Novo Post"
+format: html
+page-layout: article
+---
+
+# Criar Novo Post
+
+Esta página descreve como criar um novo post para o blog.
+Preencha os campos abaixo (no seu editor) e salve como um novo arquivo em `posts/` usando o template `post-template.qmd`.
+
+::: {.novo-post-form}
+
+**1. Título do Post (obrigatório)**
+
+```text
+Título: 
+```
+
+**2. Autor**
+
+```text
+Autor: 
+```
+
+**3. Data**  
+Sugestão: use o formato `YYYY-MM-DD`.
+
+```text
+Data: 
+```
+
+**4. Descrição da Atividade**
+
+```markdown
+Descrição:
+Escreva aqui uma explicação geral da atividade, objetivos e contexto.
+```
+
+**5. Código (em bloco markdown)**
+
+```markdown
+```linguagem
+# Seu código aqui
+```
+```
+
+**6. Comentário do Autor (opcional)**
+
+```markdown
+Comentários do autor:
+Use este espaço para registrar reflexões pessoais, dificuldades, aprendizados e melhorias futuras.
+```
+
+**7. Como gerar o arquivo .qmd**
+
+1. Copie o arquivo `post-template.qmd`.
+2. Renomeie para algo como `post-01.qmd`, `post-02.qmd` etc.
+3. Preencha o cabeçalho YAML e as seções indicadas.
+4. Salve o arquivo dentro da pasta `posts/`.
+5. Atualize o repositório com `git add`, `git commit` e `git push` para publicar no GitHub Pages.
+
+:::

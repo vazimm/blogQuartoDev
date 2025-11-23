@@ -1,0 +1,55 @@
+---
+title: "Exemplo de Post 02"
+author: "Seu Nome"
+date: "2025-11-23"
+categories: ["exemplo", "lacospython"]
+format:
+  html:
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+execute:
+  echo: true
+code-tools: true
+lang: pt-BR
+---
+
+# Laços de Repetição em Python
+
+**Autor:** {{< meta author >}}  
+**Data:** {{< meta date >}}
+
+---
+
+## Descrição da Atividade
+
+Implementar laços de repetição com `for` e `while` em Python para percorrer listas e controlar contadores.
+
+## Código da Solução
+
+### Exemplo com `for`
+
+```python
+numeros = [1, 2, 3, 4, 5]
+
+for n in numeros:
+    print(f"Número: {n}")
+```
+
+### Exemplo com `while`
+
+```python
+contador = 1
+
+while contador <= 5:
+    print(f"Contador: {contador}")
+    contador += 1
+```
+
+## Comentários do Autor
+
+Neste post, explorei o uso de laços `for` e `while`.
+
+- O `for` é mais simples para percorrer listas já definidas.
+- O `while` é útil quando não sabemos exatamente quantas repetições teremos.
+- No futuro, posso adicionar exemplos com `break` e `continue` para controlar melhor o fluxo.

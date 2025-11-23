@@ -1,0 +1,51 @@
+---
+title: "Exemplo de Post 01"
+author: "Seu Nome"
+date: "2025-11-23"
+categories: ["exemplo", "condicionais"]
+format:
+  html:
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+execute:
+  echo: true
+code-tools: true
+lang: pt-BR
+---
+
+# Estruturas Condicionais em Python
+
+**Autor:** {{< meta author >}}  
+**Data:** {{< meta date >}}
+
+---
+
+## Descrição da Atividade
+
+Implementar exemplos de estruturas condicionais (`if`, `elif`, `else`) em Python para verificar diferentes faixas de notas de um aluno.
+
+## Código da Solução
+
+```python
+nota = float(input("Digite a nota do aluno: "))
+
+if nota >= 9.0:
+    conceito = "A"
+elif nota >= 7.0:
+    conceito = "B"
+elif nota >= 5.0:
+    conceito = "C"
+else:
+    conceito = "D"
+
+print(f"Nota: {nota} - Conceito: {conceito}")
+```
+
+## Comentários do Autor
+
+Nesta atividade, trabalhei com estruturas condicionais simples em Python.
+
+- Testei diferentes valores de notas para garantir que todas as faixas fossem cobertas.
+- Tive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).
+- Poderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos).

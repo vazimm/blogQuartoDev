@@ -1,0 +1,164 @@
+:root {
+    --color-primary: #312E81;
+    /* violeta escuro */
+    --color-primary-dark: #1E1B4B;
+    --color-secondary-bg: #F3F4F6;
+    /* cinza claro */
+    --color-text: #111827;
+    --color-muted: #6B7280;
+    --color-link: #2563EB;
+    --color-card-border: #E5E7EB;
+    /* fundo de código em cinza claro para melhor legibilidade */
+    --color-code-bg: #E5E7EB;
+    /* cor de texto do código (cobalto escuro) */
+    --color-code-text: #1D4ED8;
+    --color-footer-bg: #111827;
+}
+
+body {
+    background-color: var(--color-secondary-bg);
+    color: var(--color-text);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.navbar,
+.navbar-dark {
+    background-color: var(--color-primary) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-nav .nav-link {
+    color: #F9FAFB !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+main.content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+/* Cards da página inicial */
+.posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.post-card {
+    background-color: #FFFFFF;
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-card-border);
+    padding: 1.5rem;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+}
+
+.post-card h3,
+.post-card h2,
+.post-card h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.post-card-meta {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    margin-bottom: 0.75rem;
+}
+
+.post-card a {
+    color: var(--color-link);
+    font-weight: 600;
+}
+
+.post-card a:hover {
+    text-decoration: underline;
+}
+
+/* Template de post */
+.quarto-title h1.title {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.quarto-title-meta {
+    color: var(--color-muted);
+}
+
+hr {
+    border-color: #E5E7EB;
+}
+
+/* Código */
+pre code {
+    background-color: var(--color-code-bg) !important;
+    color: var(--color-code-text) !important;
+    border-radius: 0.5rem;
+}
+
+pre {
+    border-radius: 0.5rem !important;
+    background-color: var(--color-code-bg) !important;
+}
+
+/* Área de comentários do autor */
+section#comentarios-do-autor,
+.commentarios-autor {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-card-border);
+}
+
+section#comentarios-do-autor h2,
+.commentarios-autor h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Página Novo Post */
+.novo-post-form {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-card-border);
+}
+
+.novo-post-form code,
+.novo-post-form pre {
+    background-color: #F9FAFB;
+}
+
+/* Footer */
+.footer,
+.page-footer {
+    background-color: var(--color-footer-bg) !important;
+    color: #E5E7EB !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer a,
+.page-footer a {
+    color: #BFDBFE;
+}
+
+.footer a:hover,
+.page-footer a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .posts-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

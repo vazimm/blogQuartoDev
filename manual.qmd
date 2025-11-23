@@ -1,0 +1,191 @@
+---
+title: "Manual do Usuário do Blog"
+format: html
+page-layout: article
+---
+
+# Manual do Usuário – Atualização do Blog
+
+Este manual explica como criar, editar e publicar posts no blog desenvolvido em Quarto.
+
+## 1. Estrutura do Projeto
+
+- Pasta raiz: `blogQuartoDev`
+- Arquivos principais:
+  - `_quarto.yml` – configuração geral do site (tema, menu, rodapé).
+  - `index.qmd` – página inicial com os cards dos posts.
+  - `novo-post.qmd` – instruções para criação de novos posts.
+  - `sobre.qmd` – página "Sobre o Blog".
+  - `styles.css` – estilos (cores, fontes, layout).
+- Pasta de posts:
+  - `posts/` – contém todos os posts do blog.
+  - `posts/post-template.qmd` – modelo base para criar novos posts.
+  - `posts/post-01.qmd`, `posts/post-02.qmd`, etc. – posts publicados.
+
+## 2. Como Criar um Novo Post
+
+### 2.1. Copiar o Template
+
+1. Acesse a pasta `posts/`.
+2. Duplique o arquivo `post-template.qmd`.
+3. Renomeie o novo arquivo, por exemplo:
+   - `post-03.qmd`
+   - `post-atividade-nota1.qmd`
+
+### 2.2. Editar o Cabeçalho YAML
+
+No início do arquivo, entre `---` e `---`, edite:
+
+```yaml
+title: "Título da Atividade"
+author: "Seu Nome"
+date: "2025-11-23"
+categories: ["programacao", "atividade"]
+```
+
+- `title`: título da atividade.
+- `author`: nome do autor.
+- `date`: data no formato `YYYY-MM-DD`.
+- `categories`: categorias/palavras‑chave (opcional).
+
+### 2.3. Preencher as Seções do Post
+
+- **Descrição da Atividade**
+  - Explique o contexto, objetivos e o que o código faz.
+- **Código da Solução**
+  - Use blocos de código cercados (fenced code blocks):
+
+  ````markdown
+  ```python
+  # Seu código aqui
+  def soma(a, b):
+      return a + b
+  ```
+  ````
+
+  - Você pode usar outras linguagens, como `cpp`, `java`, `js`, etc.
+- **Comentários do Autor**
+  - Use esse espaço para registrar:
+    - Dificuldades encontradas.
+    - Erros e como foram corrigidos.
+    - Ideias de melhorias futuras.
+  - Esta área é **apenas para o autor**, não há comentários públicos.
+
+### 2.4. Salvar o Arquivo
+
+- Mantenha o arquivo dentro da pasta `posts/`.
+- Não é necessário alterar `_quarto.yml` para cada novo post.
+
+## 3. Como Adicionar o Post na Página Inicial
+
+1. Abra `index.qmd`.
+2. Localize o bloco de cards, por exemplo:
+
+```markdown
+::: {.posts-grid}
+
+:::{.post-card}
+### Exemplo de Post 01
+
+**Data:** 2025-11-23 · **Autor:** Seu Nome
+
+Pequena descrição da atividade.
+
+[→ Ler mais](posts/post-01.qmd)
+:::
+
+:::
+```
+
+3. Copie um card existente e edite para o novo post, por exemplo:
+
+```markdown
+:::{.post-card}
+### Título da Nova Atividade
+
+**Data:** 2025-12-01 · **Autor:** Seu Nome
+
+Pequeno resumo da atividade (2 a 3 linhas).
+
+[→ Ler mais](posts/post-03.qmd)
+:::
+```
+
+4. Salve `index.qmd`. O novo card aparecerá na Home.
+
+## 4. Como Editar um Post Existente
+
+1. Acesse a pasta `posts/`.
+2. Abra o arquivo do post desejado (por exemplo, `post-01.qmd`).
+3. Edite a descrição, o código ou a seção "Comentários do Autor".
+4. Salve o arquivo. Não é preciso mexer na Home se o link continuar o mesmo.
+
+## 5. Visualizar o Blog Localmente
+
+1. Abra o PowerShell.
+2. Vá para a pasta do projeto:
+
+```powershell
+cd "c:\Users\Users\Documents\Projetos\blogQuartoDev"
+```
+
+3. Inicie a pré-visualização do Quarto:
+
+```powershell
+quarto preview
+```
+
+4. O navegador abrirá o site. Ao salvar qualquer `.qmd` ou `styles.css`, a página recarrega automaticamente.
+5. Para encerrar a pré-visualização, use `Ctrl + C` no terminal.
+
+## 6. Publicar as Alterações no GitHub
+
+1. Na pasta do projeto, execute:
+
+```powershell
+cd "c:\Users\Users\Documents\Projetos\blogQuartoDev"
+```
+
+2. Adicione os arquivos modificados:
+
+```powershell
+git add .
+```
+
+3. Crie um commit com mensagem descritiva:
+
+```powershell
+git commit -m "Adiciona novo post sobre [tema]"
+```
+
+4. Envie para o GitHub:
+
+```powershell
+git push
+```
+
+5. Aguarde o GitHub Pages atualizar e acesse a URL do site.
+
+## 7. Ajustar Apenas o Visual (Cores e Layout)
+
+- Todas as personalizações visuais estão em `styles.css`.
+- Exemplos:
+  - **Cores principais**: variáveis em `:root` (como `--color-primary`, `--color-secondary-bg`).
+  - **Navbar**: regras `.navbar`.
+  - **Cards da Home**: `.posts-grid` e `.post-card`.
+  - **Blocos de código**: `pre` e `pre code`.
+- Após mudar `styles.css`, use `quarto preview` para conferir o resultado.
+
+## 8. Boas Práticas
+
+- Use nomes de arquivos consistentes, como:
+  - `post-01-condicionais.qmd`
+  - `post-02-lacos-repeticao.qmd`
+- Mantenha o cabeçalho YAML sempre correto.
+- Sempre preencha a seção "Comentários do Autor".
+- Teste o código antes de publicar.
+- Escreva mensagens de commit claras (ex.: `Cria post sobre listas em Python`).
+
+---
+
+Se tiver dúvidas, consulte este manual ou veja exemplos já existentes em `posts/post-01.qmd` e `posts/post-02.qmd`.

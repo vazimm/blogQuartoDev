@@ -1,0 +1,40 @@
+---
+title: "Blog de Programação"
+format: html
+page-layout: full
+---
+
+# Blog de Programação
+
+Bem-vindo ao blog de atividades avaliativas da disciplina de Programação.
+Aqui você encontrará códigos, explicações e comentários sobre cada atividade desenvolvida.
+
+::: {.posts-list}
+
+
+:::
+
+
+::: {.posts-grid}
+
+:::{.post-card}
+### Exemplo de Post 01
+
+**Data:** 2025-11-23 · **Autor:** Seu Nome
+
+Pequena descrição da atividade abordando estruturas condicionais em Python.
+
+[→ Ler mais](posts/post-01.qmd)
+:::
+
+:::{.post-card}
+### Exemplo de Post 02
+
+**Data:** 2025-11-23 · **Autor:** Seu Nome
+
+Implementação de laços de repetição e exemplos práticos.
+
+[→ Ler mais](posts/post-02.qmd)
+:::
+
+:::

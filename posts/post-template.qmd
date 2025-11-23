@@ -1,0 +1,66 @@
+---
+title: "Título da Atividade"
+author: "Seu Nome"
+date: "2025-11-23"
+categories: ["programacao", "atividade"]
+format:
+  html:
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: true
+code-tools: true
+lang: pt-BR
+---
+
+# {{< meta title >}}
+
+**Autor:** {{< meta author >}}  
+**Data:** {{< meta date >}}
+
+---
+
+## Descrição da Atividade
+
+Descreva aqui o objetivo da atividade, o contexto (por exemplo, "Trabalho avaliativo da disciplina de Programação"), e o que será implementado.
+
+## Código da Solução
+
+Explique brevemente o que o código faz antes de mostrá-lo.
+
+```python
+# Exemplo de código em Python
+# Substitua por seu código real
+
+def soma(a, b):
+    return a + b
+
+print(soma(2, 3))
+```
+
+Você pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).
+
+```cpp
+// Exemplo de código em C++
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!";
+    return 0;
+}
+```
+
+## Comentários do Autor
+
+Use esta seção para registrar comentários pessoais sobre o que foi feito.
+
+- O que foi mais difícil?
+- Quais erros foram encontrados e como foram resolvidos?
+- O que poderia ser melhorado no futuro?
+
+Este espaço é reservado **apenas para o autor**, não será aberto a comentários públicos.

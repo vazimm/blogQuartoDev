@@ -1,0 +1,13 @@
+---
+title: "Sobre o Blog"
+format: html
+page-layout: article
+---
+
+# Sobre o Blog
+
+Este blog foi criado para registrar atividades avaliativas da disciplina de Programação.
+
+Aqui você encontrará códigos comentados, explicações detalhadas e anotações pessoais do autor sobre o processo de desenvolvimento de cada atividade.
+
+O objetivo principal é servir como um **portfólio técnico** e também como um **diário de aprendizagem**, mostrando a evolução ao longo da disciplina.

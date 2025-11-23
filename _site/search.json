@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre o Blog",
+    "section": "",
+    "text": "Sobre o Blog\nEste blog foi criado para registrar atividades avaliativas da disciplina de Programação.\nAqui você encontrará códigos comentados, explicações detalhadas e anotações pessoais do autor sobre o processo de desenvolvimento de cada atividade.\nO objetivo principal é servir como um portfólio técnico e também como um diário de aprendizagem, mostrando a evolução ao longo da disciplina."
+  },
+  {
+    "objectID": "posts/post-02.html",
+    "href": "posts/post-02.html",
+    "title": "Exemplo de Post 02",
+    "section": "",
+    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nImplementar laços de repetição com for e while em Python para percorrer listas e controlar contadores.\n\n\n\n\n\nnumeros = [1, 2, 3, 4, 5]\n\nfor n in numeros:\n    print(f\"Número: {n}\")\n\n\n\ncontador = 1\n\nwhile contador &lt;= 5:\n    print(f\"Contador: {contador}\")\n    contador += 1\n\n\n\n\nNeste post, explorei o uso de laços for e while.\n\nO for é mais simples para percorrer listas já definidas.\nO while é útil quando não sabemos exatamente quantas repetições teremos.\nNo futuro, posso adicionar exemplos com break e continue para controlar melhor o fluxo."
+  },
+  {
+    "objectID": "posts/post-02.html#descrição-da-atividade",
+    "href": "posts/post-02.html#descrição-da-atividade",
+    "title": "Exemplo de Post 02",
+    "section": "",
+    "text": "Implementar laços de repetição com for e while em Python para percorrer listas e controlar contadores."
+  },
+  {
+    "objectID": "posts/post-02.html#código-da-solução",
+    "href": "posts/post-02.html#código-da-solução",
+    "title": "Exemplo de Post 02",
+    "section": "",
+    "text": "numeros = [1, 2, 3, 4, 5]\n\nfor n in numeros:\n    print(f\"Número: {n}\")\n\n\n\ncontador = 1\n\nwhile contador &lt;= 5:\n    print(f\"Contador: {contador}\")\n    contador += 1"
+  },
+  {
+    "objectID": "posts/post-02.html#comentários-do-autor",
+    "href": "posts/post-02.html#comentários-do-autor",
+    "title": "Exemplo de Post 02",
+    "section": "",
+    "text": "Neste post, explorei o uso de laços for e while.\n\nO for é mais simples para percorrer listas já definidas.\nO while é útil quando não sabemos exatamente quantas repetições teremos.\nNo futuro, posso adicionar exemplos com break e continue para controlar melhor o fluxo."
+  },
+  {
+    "objectID": "novo-post.html",
+    "href": "novo-post.html",
+    "title": "Novo Post",
+    "section": "",
+    "text": "Criar Novo Post\nEsta página descreve como criar um novo post para o blog. Preencha os campos abaixo (no seu editor) e salve como um novo arquivo em posts/ usando o template post-template.qmd.\n\n1. Título do Post (obrigatório)\nTítulo: \n2. Autor\nAutor: \n3. Data\nSugestão: use o formato YYYY-MM-DD.\nData: \n4. Descrição da Atividade\nDescrição:\nEscreva aqui uma explicação geral da atividade, objetivos e contexto.\n5. Código (em bloco markdown)\n```linguagem\n# Seu código aqui\n\n**6. Comentário do Autor (opcional)**\n\n```markdown\nComentários do autor:\nUse este espaço para registrar reflexões pessoais, dificuldades, aprendizados e melhorias futuras.\n7. Como gerar o arquivo .qmd\n\nCopie o arquivo post-template.qmd.\nRenomeie para algo como post-01.qmd, post-02.qmd etc.\nPreencha o cabeçalho YAML e as seções indicadas.\nSalve o arquivo dentro da pasta posts/.\nAtualize o repositório com git add, git commit e git push para publicar no GitHub Pages."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog de Programação",
+    "section": "",
+    "text": "Blog de Programação\nBem-vindo ao blog de atividades avaliativas da disciplina de Programação. Aqui você encontrará códigos, explicações e comentários sobre cada atividade desenvolvida.\n\n\n\n\n\nExemplo de Post 01\nData: 2025-11-23 · Autor: Seu Nome\nPequena descrição da atividade abordando estruturas condicionais em Python.\n→ Ler mais\n\n\nExemplo de Post 02\nData: 2025-11-23 · Autor: Seu Nome\nImplementação de laços de repetição e exemplos práticos.\n→ Ler mais"
+  },
+  {
+    "objectID": "posts/post-01.html",
+    "href": "posts/post-01.html",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nImplementar exemplos de estruturas condicionais (if, elif, else) em Python para verificar diferentes faixas de notas de um aluno.\n\n\n\nnota = float(input(\"Digite a nota do aluno: \"))\n\nif nota &gt;= 9.0:\n    conceito = \"A\"\nelif nota &gt;= 7.0:\n    conceito = \"B\"\nelif nota &gt;= 5.0:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n\nprint(f\"Nota: {nota} - Conceito: {conceito}\")\n\n\n\nNesta atividade, trabalhei com estruturas condicionais simples em Python.\n\nTestei diferentes valores de notas para garantir que todas as faixas fossem cobertas.\nTive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).\nPoderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos)."
+  },
+  {
+    "objectID": "posts/post-01.html#descrição-da-atividade",
+    "href": "posts/post-01.html#descrição-da-atividade",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "Implementar exemplos de estruturas condicionais (if, elif, else) em Python para verificar diferentes faixas de notas de um aluno."
+  },
+  {
+    "objectID": "posts/post-01.html#código-da-solução",
+    "href": "posts/post-01.html#código-da-solução",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "nota = float(input(\"Digite a nota do aluno: \"))\n\nif nota &gt;= 9.0:\n    conceito = \"A\"\nelif nota &gt;= 7.0:\n    conceito = \"B\"\nelif nota &gt;= 5.0:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n\nprint(f\"Nota: {nota} - Conceito: {conceito}\")"
+  },
+  {
+    "objectID": "posts/post-01.html#comentários-do-autor",
+    "href": "posts/post-01.html#comentários-do-autor",
+    "title": "Exemplo de Post 01",
+    "section": "",
+    "text": "Nesta atividade, trabalhei com estruturas condicionais simples em Python.\n\nTestei diferentes valores de notas para garantir que todas as faixas fossem cobertas.\nTive atenção especial às condições limítrofes (por exemplo, 7.0, 9.0).\nPoderia estender o código futuramente para validar entradas inválidas (como letras ou valores negativos)."
+  },
+  {
+    "objectID": "posts/post-template.html",
+    "href": "posts/post-template.html",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Autor: Seu Nome\nData: 23 de novembro de 2025\n\n\n\nDescreva aqui o objetivo da atividade, o contexto (por exemplo, “Trabalho avaliativo da disciplina de Programação”), e o que será implementado.\n\n\n\nExplique brevemente o que o código faz antes de mostrá-lo.\n# Exemplo de código em Python\n# Substitua por seu código real\n\ndef soma(a, b):\n    return a + b\n\nprint(soma(2, 3))\nVocê pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).\n// Exemplo de código em C++\n#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}\n\n\n\nUse esta seção para registrar comentários pessoais sobre o que foi feito.\n\nO que foi mais difícil?\nQuais erros foram encontrados e como foram resolvidos?\nO que poderia ser melhorado no futuro?\n\nEste espaço é reservado apenas para o autor, não será aberto a comentários públicos."
+  },
+  {
+    "objectID": "posts/post-template.html#descrição-da-atividade",
+    "href": "posts/post-template.html#descrição-da-atividade",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Descreva aqui o objetivo da atividade, o contexto (por exemplo, “Trabalho avaliativo da disciplina de Programação”), e o que será implementado."
+  },
+  {
+    "objectID": "posts/post-template.html#código-da-solução",
+    "href": "posts/post-template.html#código-da-solução",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Explique brevemente o que o código faz antes de mostrá-lo.\n# Exemplo de código em Python\n# Substitua por seu código real\n\ndef soma(a, b):\n    return a + b\n\nprint(soma(2, 3))\nVocê pode adicionar outros trechos de código, inclusive em diferentes linguagens, usando blocos cercados (fenced code blocks).\n// Exemplo de código em C++\n#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\";\n    return 0;\n}"
+  },
+  {
+    "objectID": "posts/post-template.html#comentários-do-autor",
+    "href": "posts/post-template.html#comentários-do-autor",
+    "title": "Título da Atividade",
+    "section": "",
+    "text": "Use esta seção para registrar comentários pessoais sobre o que foi feito.\n\nO que foi mais difícil?\nQuais erros foram encontrados e como foram resolvidos?\nO que poderia ser melhorado no futuro?\n\nEste espaço é reservado apenas para o autor, não será aberto a comentários públicos."
+  },
+  {
+    "objectID": "manual.html",
+    "href": "manual.html",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Este manual explica como criar, editar e publicar posts no blog desenvolvido em Quarto.\n\n\n\nPasta raiz: blogQuartoDev\nArquivos principais:\n\n_quarto.yml – configuração geral do site (tema, menu, rodapé).\nindex.qmd – página inicial com os cards dos posts.\nnovo-post.qmd – instruções para criação de novos posts.\nsobre.qmd – página “Sobre o Blog”.\nstyles.css – estilos (cores, fontes, layout).\n\nPasta de posts:\n\nposts/ – contém todos os posts do blog.\nposts/post-template.qmd – modelo base para criar novos posts.\nposts/post-01.qmd, posts/post-02.qmd, etc. – posts publicados.\n\n\n\n\n\n\n\n\nAcesse a pasta posts/.\nDuplique o arquivo post-template.qmd.\nRenomeie o novo arquivo, por exemplo:\n\npost-03.qmd\npost-atividade-nota1.qmd\n\n\n\n\n\nNo início do arquivo, entre --- e ---, edite:\ntitle: \"Título da Atividade\"\nauthor: \"Seu Nome\"\ndate: \"2025-11-23\"\ncategories: [\"programacao\", \"atividade\"]\n\ntitle: título da atividade.\nauthor: nome do autor.\ndate: data no formato YYYY-MM-DD.\ncategories: categorias/palavras‑chave (opcional).\n\n\n\n\n\nDescrição da Atividade\n\nExplique o contexto, objetivos e o que o código faz.\n\nCódigo da Solução\n\nUse blocos de código cercados (fenced code blocks):\n\n```python\n# Seu código aqui\ndef soma(a, b):\n    return a + b\n```\n\nVocê pode usar outras linguagens, como cpp, java, js, etc.\n\nComentários do Autor\n\nUse esse espaço para registrar:\n\nDificuldades encontradas.\nErros e como foram corrigidos.\nIdeias de melhorias futuras.\n\nEsta área é apenas para o autor, não há comentários públicos.\n\n\n\n\n\n\nMantenha o arquivo dentro da pasta posts/.\nNão é necessário alterar _quarto.yml para cada novo post.\n\n\n\n\n\n\nAbra index.qmd.\nLocalize o bloco de cards, por exemplo:\n\n::: {.posts-grid}\n\n:::{.post-card}\n### Exemplo de Post 01\n\n**Data:** 2025-11-23 · **Autor:** Seu Nome\n\nPequena descrição da atividade.\n\n[→ Ler mais](posts/post-01.qmd)\n:::\n\n:::\n\nCopie um card existente e edite para o novo post, por exemplo:\n\n:::{.post-card}\n### Título da Nova Atividade\n\n**Data:** 2025-12-01 · **Autor:** Seu Nome\n\nPequeno resumo da atividade (2 a 3 linhas).\n\n[→ Ler mais](posts/post-03.qmd)\n:::\n\nSalve index.qmd. O novo card aparecerá na Home.\n\n\n\n\n\nAcesse a pasta posts/.\nAbra o arquivo do post desejado (por exemplo, post-01.qmd).\nEdite a descrição, o código ou a seção “Comentários do Autor”.\nSalve o arquivo. Não é preciso mexer na Home se o link continuar o mesmo.\n\n\n\n\n\nAbra o PowerShell.\nVá para a pasta do projeto:\n\ncd \"c:\\Users\\Users\\Documents\\Projetos\\blogQuartoDev\"\n\nInicie a pré-visualização do Quarto:\n\nquarto preview\n\nO navegador abrirá o site. Ao salvar qualquer .qmd ou styles.css, a página recarrega automaticamente.\nPara encerrar a pré-visualização, use Ctrl + C no terminal.\n\n\n\n\n\nNa pasta do projeto, execute:\n\ncd \"c:\\Users\\Users\\Documents\\Projetos\\blogQuartoDev\"\n\nAdicione os arquivos modificados:\n\ngit add .\n\nCrie um commit com mensagem descritiva:\n\ngit commit -m \"Adiciona novo post sobre [tema]\"\n\nEnvie para o GitHub:\n\ngit push\n\nAguarde o GitHub Pages atualizar e acesse a URL do site.\n\n\n\n\n\nTodas as personalizações visuais estão em styles.css.\nExemplos:\n\nCores principais: variáveis em :root (como --color-primary, --color-secondary-bg).\nNavbar: regras .navbar.\nCards da Home: .posts-grid e .post-card.\nBlocos de código: pre e pre code.\n\nApós mudar styles.css, use quarto preview para conferir o resultado.\n\n\n\n\n\nUse nomes de arquivos consistentes, como:\n\npost-01-condicionais.qmd\npost-02-lacos-repeticao.qmd\n\nMantenha o cabeçalho YAML sempre correto.\nSempre preencha a seção “Comentários do Autor”.\nTeste o código antes de publicar.\nEscreva mensagens de commit claras (ex.: Cria post sobre listas em Python).\n\n\nSe tiver dúvidas, consulte este manual ou veja exemplos já existentes em posts/post-01.qmd e posts/post-02.qmd."
+  },
+  {
+    "objectID": "manual.html#estrutura-do-projeto",
+    "href": "manual.html#estrutura-do-projeto",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Pasta raiz: blogQuartoDev\nArquivos principais:\n\n_quarto.yml – configuração geral do site (tema, menu, rodapé).\nindex.qmd – página inicial com os cards dos posts.\nnovo-post.qmd – instruções para criação de novos posts.\nsobre.qmd – página “Sobre o Blog”.\nstyles.css – estilos (cores, fontes, layout).\n\nPasta de posts:\n\nposts/ – contém todos os posts do blog.\nposts/post-template.qmd – modelo base para criar novos posts.\nposts/post-01.qmd, posts/post-02.qmd, etc. – posts publicados."
+  },
+  {
+    "objectID": "manual.html#como-criar-um-novo-post",
+    "href": "manual.html#como-criar-um-novo-post",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Acesse a pasta posts/.\nDuplique o arquivo post-template.qmd.\nRenomeie o novo arquivo, por exemplo:\n\npost-03.qmd\npost-atividade-nota1.qmd\n\n\n\n\n\nNo início do arquivo, entre --- e ---, edite:\ntitle: \"Título da Atividade\"\nauthor: \"Seu Nome\"\ndate: \"2025-11-23\"\ncategories: [\"programacao\", \"atividade\"]\n\ntitle: título da atividade.\nauthor: nome do autor.\ndate: data no formato YYYY-MM-DD.\ncategories: categorias/palavras‑chave (opcional).\n\n\n\n\n\nDescrição da Atividade\n\nExplique o contexto, objetivos e o que o código faz.\n\nCódigo da Solução\n\nUse blocos de código cercados (fenced code blocks):\n\n```python\n# Seu código aqui\ndef soma(a, b):\n    return a + b\n```\n\nVocê pode usar outras linguagens, como cpp, java, js, etc.\n\nComentários do Autor\n\nUse esse espaço para registrar:\n\nDificuldades encontradas.\nErros e como foram corrigidos.\nIdeias de melhorias futuras.\n\nEsta área é apenas para o autor, não há comentários públicos.\n\n\n\n\n\n\nMantenha o arquivo dentro da pasta posts/.\nNão é necessário alterar _quarto.yml para cada novo post."
+  },
+  {
+    "objectID": "manual.html#como-adicionar-o-post-na-página-inicial",
+    "href": "manual.html#como-adicionar-o-post-na-página-inicial",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Abra index.qmd.\nLocalize o bloco de cards, por exemplo:\n\n::: {.posts-grid}\n\n:::{.post-card}\n### Exemplo de Post 01\n\n**Data:** 2025-11-23 · **Autor:** Seu Nome\n\nPequena descrição da atividade.\n\n[→ Ler mais](posts/post-01.qmd)\n:::\n\n:::\n\nCopie um card existente e edite para o novo post, por exemplo:\n\n:::{.post-card}\n### Título da Nova Atividade\n\n**Data:** 2025-12-01 · **Autor:** Seu Nome\n\nPequeno resumo da atividade (2 a 3 linhas).\n\n[→ Ler mais](posts/post-03.qmd)\n:::\n\nSalve index.qmd. O novo card aparecerá na Home."
+  },
+  {
+    "objectID": "manual.html#como-editar-um-post-existente",
+    "href": "manual.html#como-editar-um-post-existente",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Acesse a pasta posts/.\nAbra o arquivo do post desejado (por exemplo, post-01.qmd).\nEdite a descrição, o código ou a seção “Comentários do Autor”.\nSalve o arquivo. Não é preciso mexer na Home se o link continuar o mesmo."
+  },
+  {
+    "objectID": "manual.html#visualizar-o-blog-localmente",
+    "href": "manual.html#visualizar-o-blog-localmente",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Abra o PowerShell.\nVá para a pasta do projeto:\n\ncd \"c:\\Users\\Users\\Documents\\Projetos\\blogQuartoDev\"\n\nInicie a pré-visualização do Quarto:\n\nquarto preview\n\nO navegador abrirá o site. Ao salvar qualquer .qmd ou styles.css, a página recarrega automaticamente.\nPara encerrar a pré-visualização, use Ctrl + C no terminal."
+  },
+  {
+    "objectID": "manual.html#publicar-as-alterações-no-github",
+    "href": "manual.html#publicar-as-alterações-no-github",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Na pasta do projeto, execute:\n\ncd \"c:\\Users\\Users\\Documents\\Projetos\\blogQuartoDev\"\n\nAdicione os arquivos modificados:\n\ngit add .\n\nCrie um commit com mensagem descritiva:\n\ngit commit -m \"Adiciona novo post sobre [tema]\"\n\nEnvie para o GitHub:\n\ngit push\n\nAguarde o GitHub Pages atualizar e acesse a URL do site."
+  },
+  {
+    "objectID": "manual.html#ajustar-apenas-o-visual-cores-e-layout",
+    "href": "manual.html#ajustar-apenas-o-visual-cores-e-layout",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Todas as personalizações visuais estão em styles.css.\nExemplos:\n\nCores principais: variáveis em :root (como --color-primary, --color-secondary-bg).\nNavbar: regras .navbar.\nCards da Home: .posts-grid e .post-card.\nBlocos de código: pre e pre code.\n\nApós mudar styles.css, use quarto preview para conferir o resultado."
+  },
+  {
+    "objectID": "manual.html#boas-práticas",
+    "href": "manual.html#boas-práticas",
+    "title": "Manual do Usuário do Blog",
+    "section": "",
+    "text": "Use nomes de arquivos consistentes, como:\n\npost-01-condicionais.qmd\npost-02-lacos-repeticao.qmd\n\nMantenha o cabeçalho YAML sempre correto.\nSempre preencha a seção “Comentários do Autor”.\nTeste o código antes de publicar.\nEscreva mensagens de commit claras (ex.: Cria post sobre listas em Python).\n\n\nSe tiver dúvidas, consulte este manual ou veja exemplos já existentes em posts/post-01.qmd e posts/post-02.qmd."
+  }
+]

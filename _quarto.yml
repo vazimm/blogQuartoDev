@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Blog de Programação"
+  navbar:
+    background: "#1F2933"
+    foreground: "#F9FAFB"
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: novo-post.qmd
+        text: "Novo Post"
+      - href: sobre.qmd
+        text: "Sobre"
+      - href: manual.qmd
+        text: "Manual"
+  page-footer:
+    background: "#111827"
+    foreground: "#E5E7EB"
+    center:
+      - text: "© 2025 - Blog de Programação | Desenvolvido com Quarto"
+      - text: "Autor: Seu Nome | GitHub: github.com/seuusuario"
+        href: "https://github.com/seuusuario"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    df-print: default
+
+metadata:
+  lang: pt-BR
+  author: "Seu Nome"
